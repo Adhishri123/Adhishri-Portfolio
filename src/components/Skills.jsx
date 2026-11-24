@@ -23,7 +23,7 @@ export default function Skills() {
 
       <div className="w-full h-full absolute top-0 left-0 pointer-events-none">
         <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
-          <video className="w-full h-auto" playsInline loop muted autoPlay src="/cards-video.webm" />
+          <video className="w-full h-auto" playsInline loop muted autoPlay src={`${import.meta.env.BASE_URL}cards-video.webm`} />
         </div>
       </div>
     </section>

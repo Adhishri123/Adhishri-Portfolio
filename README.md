@@ -1,24 +1,19 @@
 # Adhishri Deshmukh - Portfolio (React JS + Vite + Tailwind CSS + Framer Motion)
 
-## Run
+Live: https://adhishri123.github.io/adhishri-portfolio/
+
+## Run locally
 ```
 npm install
-npm run dev        # open http://localhost:5173
-npm run build      # production build in /dist
+npm run dev        # http://localhost:5173/adhishri-portfolio/
+npm run build
+npm run preview
 ```
 
 ## Edit your content
-Only one file: `src/data/index.js` (name, contact, skills, projects, education).
+Only one file: `src/data/index.js`.
 
-## Folder map
-- `index.html`            - page shell, title
-- `src/main.jsx`          - starts React
-- `src/App.jsx`           - puts all sections in order
-- `src/index.css`         - Tailwind + custom glow/gradient classes
-- `src/utils/motion.js`   - Framer Motion slide animations
-- `src/data/index.js`     - all your text and lists
-- `src/components/*`      - Navbar, Hero, Skills, Encryption, Projects, Education, Footer
-- `public/`               - videos and images (served from `/`)
+## Deploy
+Every `git push` to `main` runs `.github/workflows/deploy.yml` and publishes the site to GitHub Pages.
 
-## Deploy (free)
-Push to GitHub, then import the repo in Vercel or Netlify. Build command: `npm run build`, output folder: `dist`.
+If you rename the repo, change `base` in `vite.config.js` to `"/new-repo-name/"`.

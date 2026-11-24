@@ -35,7 +35,7 @@ export default function HeroContent() {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          {profile.about}
+          {profile.heroText}
         </motion.p>
 
         <motion.a
@@ -51,7 +51,7 @@ export default function HeroContent() {
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
       >
-        <img src="/mainIconsdark.svg" alt="work icons" height={650} width={650} />
+        <img src={`${import.meta.env.BASE_URL}mainIconsdark.svg`} alt="work icons" height={650} width={650} />
       </motion.div>
     </motion.div>
   );

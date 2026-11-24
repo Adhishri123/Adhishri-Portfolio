@@ -1,6 +1,7 @@
 import StarCanvas from "./components/StarCanvas.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
+import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Encryption from "./components/Encryption.jsx";
 import Projects from "./components/Projects.jsx";
@@ -15,6 +16,7 @@ export default function App() {
       <main className="h-full w-full">
         <div className="flex flex-col gap-20">
           <Hero />
+          <About />
           <Skills />
           <Encryption />
           <Projects />

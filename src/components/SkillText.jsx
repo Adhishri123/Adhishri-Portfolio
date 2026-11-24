@@ -25,7 +25,7 @@ export default function SkillText() {
       </motion.div>
       <motion.div
         variants={slideInFromRight(0.5)}
-        className="text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
+        className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
       >
         From secure backends to smooth interfaces
       </motion.div>

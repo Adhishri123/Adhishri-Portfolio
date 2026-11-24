@@ -14,10 +14,14 @@ export const profile = {
   role: "Software Engineer",
   tagline: "Full Stack Developer Portfolio",
   location: "Pune, Maharashtra, India",
-  about:
-    "Software Engineer with 2.4 years of experience at Config Server LLP. I build full stack web and mobile applications using Java, Spring Boot, microservices and React.",
-  // about:
-  //   "I am a Software Engineer at Config Server LLP, Pune, with 2.5+ years of experience designing and building full stack web and mobile applications. I enjoy turning real business needs into reliable, easy-to-use products. I work across the whole stack: REST APIs and microservices with Java and Spring Boot, data storage with MySQL and Hibernate, secure login with Spring Security, JWT and Keycloak, and responsive interfaces with React, Angular and React Native (Expo). At Config Server LLP I have worked on three products: Officers-Pro, an officer management platform with an admin panel and an officer app; an AI-powered HR assistant with a mobile app; and an E-learning platform with role-based access. I care about clean code, accessible and responsive design, and steady delivery in Agile teams using Git and Jira. I hold an M.Sc in Mathematics and completed Full Stack Java Development training, which gives me a strong problem-solving base. I am now looking to take on larger responsibility and build high-impact products.",
+  heroText:
+    "Software Engineer with 2.5+ years of experience building secure, scalable full stack web and mobile applications using Java, Spring Boot, microservices and React.",
+  about: [
+    "I am a Software Engineer at Config Server LLP, Pune, with 2.5+ years of experience designing and building full stack web and mobile applications. I enjoy turning real business needs into reliable, easy-to-use products.",
+    "I work across the whole stack: REST APIs and microservices with Java and Spring Boot, data storage with MySQL and Hibernate, secure login with Spring Security, JWT and Keycloak, and responsive interfaces with React, Angular and React Native (Expo).",
+    "At Config Server LLP I have worked on three products: Officers-Pro, an officer management platform with an admin panel and an officer app; an AI-powered HR assistant with a mobile app; and an E-learning platform with role-based access. I care about clean code, accessible and responsive design, and steady delivery in Agile teams using Git and Jira.",
+    "I hold an M.Sc in Mathematics and completed Full Stack Java Development training, which gives me a strong problem-solving base. I am now looking to take on larger responsibility and build high-impact products.",
+  ],
   email: "deshmukhadhishri123@gmail.com",
   phone: "9325396144",
   github: "https://github.com/Adhishri123",

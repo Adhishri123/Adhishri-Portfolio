@@ -23,13 +23,13 @@ export default function Encryption() {
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <img
-            src="/LockTop.png"
+            src={`${import.meta.env.BASE_URL}LockTop.png`}
             alt="Lock top"
             width={50}
             height={50}
             className="w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
           />
-          <img src="/LockMain.png" alt="Lock main" width={70} height={70} className="z-10" />
+          <img src={`${import.meta.env.BASE_URL}LockMain.png`} alt="Lock main" width={70} height={70} className="z-10" />
         </div>
 
         <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#7042f88b] opacity-[0.9]">
@@ -38,13 +38,13 @@ export default function Encryption() {
       </div>
 
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="text-[20px] font-medium text-center text-gray-300">
+        <div className="cursive text-[20px] font-medium text-center text-gray-300">
           Secure APIs with Spring Security, JWT and Keycloak
         </div>
       </div>
 
       <div className="w-full flex items-start justify-center absolute">
-        <video loop muted autoPlay playsInline className="w-full h-auto" src="/encryption.webm" />
+        <video loop muted autoPlay playsInline className="w-full h-auto" src={`${import.meta.env.BASE_URL}encryption.webm`} />
       </div>
     </div>
   );

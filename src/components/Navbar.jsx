@@ -1,7 +1,8 @@
 import { profile, socials } from "../data/index.js";
 
 const links = [
-  { label: "About me", href: "#about-me" },
+  { label: "Home", href: "#about-me" },
+  { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Education", href: "#education" },
